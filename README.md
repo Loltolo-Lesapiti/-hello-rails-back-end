@@ -1,75 +1,113 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<div align="center">
+  
+  
+  <h1>Hello Rails Backend</h1>
+  <h3>This project implements the backend of hello-rails program.  </h3>
+</div>
 
-# Project Name
+# Table of Contents
 
-> Description the project.
+- [About the Project](#about-the-project)
+  - [Built With](#built-with)
+  - [Live Demo](#live-demo)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Testing](#testing)
+  - [Deployment](#deployment)
+- [Authors](#authors)
+- [Future Features](#future-features)
+- [Contributing](#contributing)
+- [Show Your Support](#show-your-support)
+- [Acknowledgements](#acknowledgements)
+- [License](#license)
 
+## About the Project
 
-## Built With
+This project implements the backend of hello-rails. PostgresSQL was used for database.
 
-- Major languages
-- Frameworks
-- Technologies used
+### Built With
 
-## Live Demo (if available)
+The Recipe App was built with:
 
-[Live Demo Link](https://livedemo.com)
+- Ruby On Rails
+- PostgreSQL
 
+### Live Demo
+
+You can view a live demo of the Recipe App at COMING SOON.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running, follow these steps:
 
 ### Prerequisites
 
-### Setup
+To run this project, you'll need to install:
 
-### Install
+- Ruby 2.7.0 or later
+- Rails 6.0 or later
+- PostgreSQL
+
+### Installation
+
+1. Clone this repository to your desired folder:
+
+`git clone https://github.com/Loltolo-Lesapiti/-hello-rails-back-end.git`
+
+`cd hello-rails-app`
+
+2. Install the required gems:
+
+`bundle install`
+
+3. Set up the database:
+
+`rails db:create`
+
+`rails db:migrate`
 
 ### Usage
 
-### Run tests
+To run the project, execute the following command:
+
+`./bin/dev`
+
+### Testing
+
+To run tests, run the following command:
+
+`bundle exec rspec`
 
 ### Deployment
 
+You can deploy this project using:
 
+- Heroku
+- AWS Elastic Beanstalk
+- Other cloud hosting providers
 
 ## Authors
 
-👤 **Author1**
+👤 **Petro Loltolo Lesapiti**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@petrolesapiti](https://github.com/Loltolo-Lesapiti)
+- LinkedIn: [@petrolesapiti](https://www.linkedin.com/in/petrolesapitiloltolo/)
 
-👤 **Author2**
+## Contributing
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page]()
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
+## Show Your Support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+## Acknowledgements
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- [Microverse](https://www.microverse.org/) for providing the education that inspired this project.
+- [RailsGuides](https://guides.rubyonrails.org/) for the excellent documentation on Ruby on Rails.
 
-## 📝 License
+## License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
