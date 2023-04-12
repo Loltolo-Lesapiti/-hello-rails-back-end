@@ -34,6 +34,15 @@ Hello rails-back-end was built with:
 - Ruby On Rails
 - PostgreSQL
 
+### Key Features <a name="key-features"></a>
+
+- Uses postgres to create a table of greetings.
+- Implements the display of random greetings by the fron-end.
+
+### Future Features <a name="key-features"></a>
+
+- Increase the database to add other tables.
+
 ### Related repos
 
 `https://github.com/Loltolo-Lesapiti/hello-react-front-end` - Hello rails front-end
