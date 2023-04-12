@@ -9,14 +9,14 @@
 
 - [About the Project](#about-the-project)
   - [Built With](#built-with)
-  - [Live Demo](#live-demo)
+  - [Related repos](#related-repos)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Testing](#testing)
-  - [Deployment](#deployment)
 - [Authors](#authors)
+- [Key Features](#key-features)
 - [Future Features](#future-features)
 - [Contributing](#contributing)
 - [Show Your Support](#show-your-support)
@@ -29,14 +29,14 @@ This project implements the backend of hello-rails. PostgresSQL was used for dat
 
 ### Built With
 
-The Recipe App was built with:
+Hello rails-back-end was built with:
 
 - Ruby On Rails
 - PostgreSQL
 
-### Live Demo
+### Related repos
 
-You can view a live demo of the Recipe App at COMING SOON.
+`https://github.com/Loltolo-Lesapiti/hello-react-front-end` - Hello rails front-end
 
 ## Getting Started
 
@@ -79,14 +79,6 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 `bundle exec rspec`
-
-### Deployment
-
-You can deploy this project using:
-
-- Heroku
-- AWS Elastic Beanstalk
-- Other cloud hosting providers
 
 ## Authors
 
